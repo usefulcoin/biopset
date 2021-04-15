@@ -40,11 +40,13 @@ function App() {
         {/* End Nav */}
         {/* Start Main */}
         <div id="main">
-          <Route exact path="/"><About /></Route>
-          <Route path="/Trade"><Trade /></Route>
-          <Route path="/Write"><Write /></Route>
-          <Route path="/Settle"><Settle /></Route>
-          <Route path="/Biop"><Biop /></Route>
+          <Switch>
+            <Route exact path="/"><About /></Route>
+            <Route path="/Trade"><Trade /></Route>
+            <Route path="/Write"><Write /></Route>
+            <Route path="/Settle"><Settle /></Route>
+            <Route path="/Biop"><Biop /></Route>
+          </Switch>
         </div>
         {/* End Main */}
         <Copyright />
