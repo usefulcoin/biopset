@@ -4,7 +4,7 @@ import { Link, Route, Switch } from "react-router-dom";
 import About from './pages/About';
 import Trade from './pages/Trade';
 import Write from './pages/Write';
-import Settle from '.pages/Settle';
+import Settle from './pages/Settle';
 import Biop from './pages/Biop';
 
 import Intro from './components/Intro';
