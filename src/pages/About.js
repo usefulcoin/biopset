@@ -17,7 +17,7 @@ class About extends React.Component {
             application. Do not use BIOPSET in regulated jurisdictions.</p>
         </header>
         <ul className="actions special">
-          <li><a href="trade.html" className="button large">LAUNCH APP</a></li>
+          <li><a href="/trade" className="button large">LAUNCH APP</a></li>
         </ul>
         <p />
       </article>
