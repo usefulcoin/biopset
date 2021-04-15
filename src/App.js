@@ -7,9 +7,9 @@ import Write from './pages/Write';
 import Settle from '.pages/Settle';
 import Biop from './pages/Biop';
 
-import Intro from '.components/Intro';
-import Header from '.components/Header';
-import Copyright from '.components/Copyright';
+import Intro from './components/Intro';
+import Header from './components/Header';
+import Copyright from './components/Copyright';
 
 import logo from './logo.svg';
 
