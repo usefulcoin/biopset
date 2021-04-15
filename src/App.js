@@ -50,7 +50,7 @@ function App() {
         </div>
         {/* End Main */}
         <Copyright />
-        <div className="bg"></div>
+        <div className="bg fixed"></div>
       </div>
       {/* End Wrapper */}
     </div>
