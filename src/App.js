@@ -23,7 +23,7 @@ function App() {
         {/* Start Nav */}
         <nav id="nav">
           <ul className="links">
-            <Route path="/"><li><a href="/">ABOUT</a></li></Route>
+            <Route path="/"><li><a href="/">About</a></li></Route>
             <Route path="/:id"><li><Link to="/trade">Trade</Link></li></Route>
             <Route path="/:id"><li><Link to="/write">Write</Link></li></Route>
             <Route path="/:id"><li><Link to="/settle">Settle</Link></li></Route>
