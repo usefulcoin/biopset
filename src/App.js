@@ -18,7 +18,6 @@ function App() {
     <div className="App">
       {/* Start Wrapper */}
       <div id="wrapper" className="fade-in">
-        <div className="bg"></div>
         <Route exact path="/"><Intro /></Route>
         <Header />
         {/* Start Nav */}
@@ -51,6 +50,7 @@ function App() {
         </div>
         {/* End Main */}
         <Copyright />
+        <div className="bg fixed" style="transform: none;"></div>
       </div>
       {/* End Wrapper */}
     </div>
