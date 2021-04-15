@@ -17,6 +17,7 @@ function App() {
   return (
     <div className="App">
       {/* Start Wrapper */}
+      <div className="bg"></div>
       <div id="wrapper" className="fade-in">
         <Route exact path="/"><Intro /></Route>
         <Header />
